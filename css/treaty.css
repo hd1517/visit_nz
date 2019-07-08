@@ -1,0 +1,610 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+  background-color: #f2f0e6;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.95rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+  text-align: center;
+}
+
+/* ---------------------------- Navbar Styles ---------------------------- */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand span {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding-left: 3px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-shadow: .5px .5px .5px #000;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* change the color of hovered links */
+.nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+  padding-bottom: 8px;
+  transition: 0.3s;
+}
+
+/* change the color of active links */
+.nav-item.active .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+}
+
+/* change the brand and text color */
+.navbar-brand,
+.navbar-text {
+  color: #eaeaea;
+}
+
+/* change the brand and text color on hover */
+.navbar-brand:hover,
+.navbar-text:hover {
+  color: #fff;
+}
+
+/* change navbar to transparent */
+.navbar {
+  background-color: transparent !important;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/* add this class to navbar on scroll down */
+.scrollDownColor {
+  background-color: #282828 !important;
+}
+
+/* change toggler icon color */
+.myToggler.navbar-toggler {
+  border-color: rgba(255, 255, 255, .8);
+}
+
+.myToggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, .8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Navbar dropdown Styles */
+.dropdown-custom {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 100%;
+  left: 13px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  */
+}
+
+.dropdown-custom1 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 8rem;
+}
+
+.dropdown-custom2 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 7rem;
+}
+
+.dropdown-heading {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.dropdown-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-left: 0.9rem;
+}
+
+.custom-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.custom-item1 {
+  font-size: 0.65rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background-color: #dbdbdb;
+  transition: 0.5s;
+  color: #000;
+}
+
+.dropdown-item.active {
+  border-bottom: 3px solid #7c2c1c;
+  background-color: #282828;
+  color: #fff;
+}
+
+/* ---------------------------- Header Styles ---------------------------- */
+.headerImg {
+  background: url("images/headers/history.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: rgba(0, 0, 0, .2);
+  margin-bottom: 70px;
+}
+
+/* ---------------------------- Permanent Section Styles ---------------------------- */
+.dateSection {
+  background-color: #fff;
+}
+
+.topSection {
+  background-color: #fff;
+}
+
+/* ---------------------------- Float Up Styles ---------------------------- */
+
+.no-view {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------------------------- Back to Top button Styles ---------------------------- */
+.go-top {
+  position: fixed;
+  bottom: 4.5em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  padding: 1em;
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ---------------------------- About Section Styles ---------------------------- */
+.aboutContain {
+  padding: 130px 200px;
+}
+
+.aboutSection {
+  background-color: #fff;
+}
+
+.bigQuotes {
+  font-size: 10vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn {
+  margin-bottom: 130px;
+  border-radius: 0;
+}
+
+.date {
+  font-size: 8vh;
+  font-family: 'Libre Baskerville', serif;
+  padding-bottom: 50px;
+}
+
+.overlayLight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: rgba(255, 255, 255, .9);
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.parallaxContent {
+  text-align: center;
+  padding: 90px 200px 100px;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+}
+
+.parallaxImg1 {
+  background: url("images/treaty/sign.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.parallaxImg2 {
+  background: url("images/treaty/waitangi_house.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.parallaxImg4 {
+  background: url("images/treaty/waitangi.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.parallaxImg5 {
+  background: url("images/treaty/landwars.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.paraTitle {
+  /* padding-top: 130px; */
+  font-family: 'Libre Baskerville', serif;
+  color: #5A2014;
+  padding-bottom: 10px;
+}
+
+.quotes {
+  font-size: 8vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.subTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  color: #5A2014;
+  padding: 50px 0 20px;
+}
+
+/* ---------------------------- Timeline Section Styles ---------------------------- */
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.charterImg {
+  max-width: 100%;
+}
+
+.bottomPadding {
+  padding-bottom: 300px;
+}
+
+.lessMargin {
+  margin-bottom: 100px !important;
+}
+
+.timeline {
+  padding-right: 100px;
+  text-align: right;
+  padding-top: 100px;
+}
+
+.timeline li {
+  list-style: none;
+  position: relative;
+}
+
+.timeline ul {
+  padding: 0;
+  text-align: right;
+}
+
+.timeline h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  text-align: right;
+  margin: 300px 0 0;
+}
+
+.timeline h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #5A2014;
+}
+
+.timeline p {
+  text-align: right;
+  padding-left: 30px;
+  margin-left: 700px;
+}
+
+.timelineImage {
+  position: absolute;
+  top: 110px;
+  left: 150px;
+}
+
+.timelineStart {
+  margin: 0 !important;
+}
+
+/* ---------------------------- Footer Section Styles ---------------------------- */
+.footerSection {
+  padding: 20px;
+  background-color: #282828;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+}
+
+/* ---------------------------- Media Queries Styles ---------------------------- */
+@media (max-width: 1045px) {
+
+
+  .timeline {
+    padding-right: 50px;
+  }
+
+  .timelineImage {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+  }
+
+  .timeline p {
+    margin-left: 550px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .btn {
+    margin-bottom: 50px;
+  }
+
+  .parallaxImg1, .parallaxImg2, .parallaxImg4, .parallaxImg5 {
+    height: 60vh;
+  }
+
+  h2 {
+    font-size: 3.8rem !important;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  /* change navbar color on collapse */
+  nav.navbar {
+    background: #282828 !important;
+  }
+
+  .aboutContain {
+    padding: 130px 0;
+  }
+
+  .headerImg {
+    height: 70vh;
+  }
+
+  .overlay {
+    height: 70vh;
+  }
+
+  .quotes {
+    font-size: 3.8rem;
+  }
+
+
+}
+
+@media (max-width: 880px) {
+
+  .navbar-brand {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .aboutContain {
+    padding: 100px 0;
+  }
+
+  .morePadding {
+    padding-bottom: 100px;
+  }
+
+  .timeline {
+    padding-right: 0;
+    text-align: center;
+  }
+
+
+  .timeline ul {
+    text-align: center;
+  }
+
+  .timeline h1 {
+    text-align: center;
+    margin: 100px 0 0;
+  }
+
+  .timeline h3 {
+    text-align: center;
+  }
+
+  .timeline p {
+    text-align: center;
+    margin-left: 0;
+    padding: 0 30px;
+  }
+
+  .timelineImage {
+    position: static;
+  }
+
+  .headerTitle {
+    font-size: 4rem;
+  }
+
+.subTitle {
+  font-size: 3.8rem;
+}
+
+}
+
+@media (max-width: 575px) {
+  .aboutContain {
+      padding: 50px 30px;
+  }
+
+  .timeline h1 {
+    font-size: 3.5rem;
+  }
+  .headerTitle {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 495px) {
+  .navbar-brand {
+    font-size: .8rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .headerImg {
+    height: 70vh;
+  }
+
+  .overlay {
+    height: 70vh;
+  }
+
+  .subTitle {
+    font-size: 2.8rem;
+  }
+
+  .btn {
+    margin-bottom: 30px;
+  }
+
+  .quotes {
+    font-size: 2.8rem;
+  }
+
+  .topSection p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .timeline {
+    padding-top: 50px;
+  }
+
+.timeline  h1 {
+    font-size: 2.8rem;
+    margin: 50px 0 0;
+  }
+
+
+
+}

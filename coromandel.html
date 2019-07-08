@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Coromandel's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Coromandel's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item active" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg4 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">The Coromandel</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>The Coromandel, renowned for its pristine beaches, misty forests and laid-back vibe, is one of New Zealand's most popular holiday destinations.</p>
+      <p>With a mountainous interior cloaked in native rainforest and more than 400 kilometres of dazzling white sand beaches, it is rustic, unspoiled and relaxed. Activities and attractions are plentiful, from fishing and diving to hiking and cycling. </p>
+      <p>Check out The Coromandel's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Cathedral Cove -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/cathedral_cove.jpg" alt="cathedral cove" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Cathedral Cove</h2>
+          <p>From beautiful Hahei Beach on The Coromandel you can walk to Cathedral Cove, where a naturally formed archway deserves photographic attention.</p>
+          <p>From the north end of the beach, a one hour walking track leads along the cliff top and then descends to the Cove. Here a gigantic arched cavern passes through a white rock headland to join two secluded coves. The cathedral-like arch
+            gives the whole area an air of grandeur. The beach is sandy with shady pohutukawa trees along the foreshore - a perfect place for a picnic and a swim.</p>
+        </div>
+      </div>
+
+      <!-- Whangamata -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/whangamata.jpg" alt="whangamata" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Whangamata</h2>
+          <p>The attractive combination of sand, surf and native forest makes Whangamatā a popular destination for summer holidays. It's easy to find your own space on the four kilometre ocean beach, surf the rolling breaks, or swim in the quiet
+            waters of the harbour. There are two golf courses in the area and plenty of charter boats waiting to take you diving or game fishing. Offshore, Hauturu Island can be reached by kayak or wading at low tide. </p>
+          <p>Whangamatā is a great base for exploring The Coromandel, with numerous cafés, restaurants and accommodation options (be sure to book ahead in summer). Arts and crafts shops provide interesting browsing, and surf shops cluster along the
+            main road with boards for hire.</p>
+        </div>
+      </div>
+
+      <!-- Hot Water Beach -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/hot_water.jpg" alt="hot water beach" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Hot Water Beach</h2>
+          <p>Naturally heated mineral water bubbles up from deep within the earth to emerge through golden sand at the appropriately named Hot Water Beach.</p>
+          <p>Near the rocks at the southern end of the beach you can dig your own spa pool in the sand. Dig up to two hours either side of low tide – that's when the tide is low enough to expose the area of sand with hot water underneath. It's a
+            strange but very pleasant feeling to be lying in a pool of hot water just metres from the refreshing sea.</p>
+          <p>From the hot water area, the long sandy beach stretches north and curves east under a headland. Here you'll find sheltered and secluded spots for quiet, sleepy sunbathing.</p>
+        </div>
+      </div>
+
+      <!-- Cook's Beach -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/cooks_beach.jpg" alt="cooks beach" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Cook's Beach</h2>
+          <p>Cooks Beach offers a 3-kilometre, gently curving white sand beach ideal for swimming, walking and sunbathing. This is a popular holiday destination for locals and a pleasant seaside settlement of holiday homes has established itself here
+            over the years.</p>
+          <p>From the seaside town of Whitianga you can catch a ferry across the harbour mouth to the Stone Steps Wharf - the start of Cook's Coast. Alternatively, you can drive about 35 kilometres around the harbour.</p>
+        </div>
+      </div>
+
+      <!-- Karangahake Gorge -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/karangahake.jpg" alt="karangahake gorge" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Karangahake Gorge</h2>
+          <p>The Karangahake Gorge region combines gold mining history and natural beauty, much of it accessible through a variety of walks. Situated at the base of the Coromandel Range, the Karangahake Gorge Historic Walkway follows the old railway line between Paeroa and Waihi, giving access to impressive remains from the mining and railway eras. This walkway features historic railway remains in a stunning natural environment.</p>
+          <p>Take a look through the unique mining windows at Karangahake and establish a connection with the magnificent mountain above and the rippling waters of the Ohinemuri and Waitawheta rivers below. </p>
+        </div>
+      </div>
+
+      <!-- Kauaeranga Valley -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/kauaeranga.jpg" alt="kauaeranga valley" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Kauaeranga Valley</h2>
+          <p>This beautiful area of the Coromandel Forest Park includes 21 walking tracks ranging from 20 minute strolls to rewarding overnight trails. The rugged hills, which include Table Mountain (846 metres) and the Pinnacles (759 metres),
+            provide a spectacular backdrop. Clear streams run through the valleys and at Sleeping Gods Canyon there's a magnificent 300-metre waterfall. Several native bird species are commonly seen and heard throughout the valley. Remote camping and
+            hut accommodation is available for overnight stays. </p>
+          <p>Administered by the Department of Conservation, Kauaeranga Valley is an ideal playground for hikers, mountain bikers and nature lovers.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

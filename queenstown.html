@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Queenstown's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Beautiful Queenstown's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item active" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg11 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Queenstown</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Queenstown is one of New Zealand’s most exciting and beautiful destinations, and if you come to the region you'll understand why.</p>
+      <p>A popular holiday spot at any time of the year, Queenstown is renowned for its four distinctive seasons. Winter brings crisp, blue-sky days, spring retains the snow but blooms into longer, warmer days, summer offers sunshine and long
+        twilights, and autumn a burst of brilliant red and gold. Queenstown is rated internationally as one of the world’s top holiday destinations and in 2014 was named New Zealand’s number one destination in the Travellers’ Choice Destinations by
+        TripAdvisor as well as the second best destination in the South Pacific.</p>
+      <p>Check out Queenstown's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Cardrona Valley -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/cardrona.jpg" alt="cardrona valley" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Cardrona Valley</h2>
+          <p>The beautiful scenic drive from Wanaka along the Cardrona Valley leads over the Crown Range which, at 1121 metres, is the highest main road in New Zealand.</p>
+          <p>The Cardrona Valley is famous for winter sports with world class skiing and snowboarding at Cardrona Alpine Resort and cross country (Nordic) skiing at the Snow Farm. Cardrona is also home to the Audi Quattro Winter Games where you can
+            see some of the world’s top snow sports athletes in action, and the Merino Muster – a cross country ski race which also attracts some of the world’s best.</p>
+        </div>
+      </div>
+
+      <!-- Arrowtown -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/arrowtown.jpg" alt="arrowtown" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Arrowtown</h2>
+          <p>Arrowtown is a living historic settlement with many stories to tell. Wander by the restored cottages and explore gold mining sights along the Arrow river.</p>
+          <p>One of the most picturesque settlements in New Zealand, Arrowtown sits alongside the gold-bearing Arrow River and is just 20 minutes from Queenstown. The town was established in 1862, during the height of the Otago gold rush. The
+            settlement grew quickly as pioneers constructed cottages, shops, hotels and churches, more than 60 of which can still be seen today.</p>
+        </div>
+      </div>
+
+      <!-- Skippers Canyon Road -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/skippers.jpg" alt="skippers canyon road" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Skippers Canyon Road</h2>
+          <p>Skippers Road clings to the side of Skippers Canyon, which drops vertically to the Shotover River, once known as "the richest river in the world". Rental car companies won't allow their vehicles on this narrow, unsealed road, but there
+            are plenty of local operators available to take you up the canyon. If you want to test your fitness, mountain biking is also an option.</p>
+        </div>
+      </div>
+
+      <!-- The Crown Range -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/crown_range.jpg" alt="crown range" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>The Crown Range</h2>
+          <p>The Crown Range lies between Queenstown and Wanaka. The road over the range, known as the Crown Range Road, is the highest main road in New Zealand.</p>
+          <p>The road climbs steeply to the summit, where you'll be able to see Frankton, part of Lake Wakatipu and Queenstown. For another impressive view, leave your car and walk up the track to the lookout. On the Wanaka side of the range, the
+            road crosses a plateau of farmland and descends steadily along Cardrona Valley. On the left is the Crown Range; on the right the Criffle Range. This land around here is old goldmining country - piles of tailings can still be seen. The
+            historic Cardrona Hotel is one of New Zealand's oldest - there are many interesting local artefacts on display in the bar and restaurant.</p>
+        </div>
+      </div>
+
+      <!-- Lake Wakatipu  -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/lake_wakatipu.jpg" alt="lake wakatipu" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Wakatipu</h2>
+          <p>Shaped like a lightning bolt, Lake Wakatipu is the third largest lake in New Zealand.</p>
+          <p>Lake Wakatipu offers year-round trout fishing - the mouths of the Greenstone and Lochy Rivers are particularly rewarding. In summer, the lake's beaches are popular for swimming. The Lake Wakatipu Ride, part of the Queenstown Trails, is a
+            leisurely way to experience this stunning part of the country.</p>
+        </div>
+      </div>
+
+      <!-- Moonlight Track -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_qtown/moonlight_track.jpg" alt="moonlight track" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Moonlight Track</h2>
+          <p>It's not a walk in the park, but this challenging day hike promises to lift your spirits as high as the Southern Alps.</p>
+          <p>Starting at the Queenstown end of the track (it can be done in reverse), catch the Skyline gondola to the top of Bob's Peak. From here follow the path to the Ben Lomond saddle, where you'll have the option of climbing to the summit Ben
+            Lomond (1747 metres). Massive views of the Southern Alps are your reward for this invigorating ascent.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

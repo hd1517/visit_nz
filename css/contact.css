@@ -1,0 +1,422 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.row {
+  margin: 0;
+}
+
+/* ---------------------------- Navbar Styles ---------------------------- */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  padding-left: 15px;
+}
+
+.navbar-brand span {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding-left: 3px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-shadow: .5px .5px .5px #000;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* change the color of hovered links */
+.nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+  padding-bottom: 8px;
+  transition: 0.3s;
+}
+
+/* change the color of active links */
+.nav-item.active .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+}
+
+/* change the brand and text color */
+.navbar-brand,
+.navbar-text {
+  color: #eaeaea;
+}
+
+/* change the brand and text color on hover */
+.navbar-brand:hover,
+.navbar-text:hover {
+  color: #fff;
+}
+
+/* change navbar to transparent */
+.navbar {
+  background-color: transparent !important;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/* add this class to navbar on scroll down */
+.scrollDownColor {
+  background-color: #282828 !important;
+}
+
+/* change toggler icon color */
+.myToggler.navbar-toggler {
+  border-color: rgba(255, 255, 255, .8);
+}
+
+.myToggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, .8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Navbar dropdown Styles */
+.dropdown-custom {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 100%;
+  left: 13px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  */
+}
+
+.dropdown-custom1 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 8rem;
+}
+
+.dropdown-custom2 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 7rem;
+}
+
+.dropdown-heading {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.dropdown-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-left: 0.9rem;
+}
+
+.custom-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.custom-item1 {
+  font-size: 0.65rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background-color: #dbdbdb;
+  transition: 0.5s;
+  color: #000;
+}
+
+.dropdown-item.active {
+  border-bottom: 3px solid #7c2c1c;
+}
+
+/* ---------------------------- Header Styles ---------------------------- */
+.headerImg {
+  background: url("images/headers/contact.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: 6vw; */
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: rgba(0, 0, 0, .2);
+  margin-bottom: 70px;
+}
+
+/* ---------------------------- Form Styles ---------------------------- */
+.container-fluid {
+  padding: 0;
+}
+
+.errorMsg {
+  display: none;
+  color: #DF222E;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.formDiv {
+  padding: 50px;
+}
+
+/* Remove placeholder once input is clicked */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* Firefox 18- */
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* Firefox 19+ */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* oldIE */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/* Remove placeholder once message textarea is clicked */
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* Firefox 18- */
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* Firefox 19+ */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* oldIE */
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+label {
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.myInput {
+  font-size: 0.9rem;
+}
+
+.submitBtn {
+  border-radius: 0;
+}
+
+.subTitle h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.7rem;
+  margin: 0;
+  font-weight: 500;
+  color: #96191d;
+  padding: 0 0 20px;
+  text-align: center;
+}
+
+/* ---------------------------- Contact Details Section Styles ---------------------------- */
+.contactDetails {
+  text-align: left;
+  padding: 20px 0 50px 0;
+}
+
+.contactDetails h4 {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #96191d;
+}
+
+.contactDetails p {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+iframe {
+  width: 100%;
+  height: 250px;
+}
+
+.mapDiv {
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+.contactDiv {
+  padding: 0;
+}
+
+/* ---------------------------- Modal Styles ---------------------------- */
+
+.modal_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+.modal-body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+.modal-footer {
+  padding: 0.5rem 0.8rem;
+}
+
+.modal-footer .btn {
+  border-radius: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+/* ---------------------------- Footer Section Styles ---------------------------- */
+.footerSection {
+  padding: 20px;
+  background-color: #282828;
+  margin-bottom: 0;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* ---------------------------- Media Queries Styles ---------------------------- */
+@media (max-width: 991px) {
+.formDiv {
+  padding: 20px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+  /* change navbar color on collapse */
+  nav.navbar {
+    background: #282828 !important;
+  }
+
+  .navbar-brand {
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .errorMsg {
+    margin-left: 0;
+  }
+}
+
+@media (max-width:768px) {
+.formDiv {
+  padding: 20px;
+}
+
+.row {
+  margin: 0;
+}
+
+  .mapDiv {
+    padding: 50px 10px 20px;
+  }
+
+  .contactDetails {
+    text-align: left;
+    padding: 0 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .mapDiv {
+    padding: 20px;
+  }
+
+  .headerTitle {
+    font-size: 4rem;
+  }
+
+  .contactDetails {
+    text-align: left;
+    padding: 0 0 0 30px;
+  }
+}

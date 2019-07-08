@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nelson's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Check out the top scenic attractions in the Nelson Tasman area.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item active" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg10 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Nelson Tasman</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Nelson Tasman is renowned for its stunning natural landscapes, with diverse geography capturing everything from long golden beaches to untouched forests and rugged mountains.</p>
+      <p>Walk the sun-drenched sands of Golden Bay or head inland to Takaka and see the impossibly clear waters of New Zealand’s largest freshwater springs. Walk the three-to-five day Abel Tasman track or, for a different view, take a sea kayaking
+        tour around the coast and see a seal colony and little blue penguins bobbing in the water. Taste your way around the region by bicycle on Tasman’s Great Taste Trail or get your daily dose of adrenaline with a visit to one of the region’s
+        world-class mountain bike parks.</p>
+      <p>Check out Nelson's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Wharariki Beach Walk-->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/wharariki.jpg" alt="wharariki beach" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Wharariki Beach Walk</h2>
+          <p>An easy walk along the most spectacular coastline in the region, passing through farmland and forest.</p>
+          <p>The track to Wharariki Beach travels over farm paddocks and through a section of coastal forest, before arriving a the beautiful windswept coast. The best time to visit is at low tide, when you can walk the length of the beach and take
+            in spectacular coastlines, caverns, islands, and enormous sand dunes along the way.</p>
+        </div>
+      </div>
+
+      <!-- Nelson Lakes National Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/nelson_lakes.jpg" alt="nelson lakes" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Nelson Lakes National Park</h2>
+          <p>Home to the beginning of the awe-inspiring Southern Alps, the Nelson Lakes National Park is an enchanting alpine landscape of rugged peaks, forests and stunning glacial lakes.</p>
+          <p>The beautiful alpine lakes of Rotoroa and Rotoiti form the heart of this 102,000 hectare national park. Both are surrounded by steep mountains and fringed to the shore by native honeydew beech forests, which feed a variety of tuneful
+            nectar-eating native birds. Promising everything from easy lakeside walking tracks to challenging alpine hikes, this national park has something on offer for everyone.</p>
+        </div>
+      </div>
+
+      <!-- Farewell Spit -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/farewell_spit.jpg" alt="farewell spit" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Farewell Spit</h2>
+          <p>With open sea on one side and sheltered waters on the other, this massive sandspit has two entirely different faces.</p>
+          <p>Farewell Spit stretches 34km long, making it one of the longest natural sandspits in the world. A wetland of international importance, it has been a bird sanctuary since the 1930’s and provides a home for over 90 bird species. Bar tailed
+            godwits, knots, curlews, whimbrels and turnstones fly around 12,000 kilometres every northern hemisphere autumn to spend the summer here in the south. The spit also has a gannet colony.</p>
+        </div>
+      </div>
+
+      <!-- Mount Richmond Forest Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/mt_richmond.jpg" alt="mount richmond" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Mount Richmond Forest Park</h2>
+          <p>Enjoy short walks through native forest beside mountain streams or climb high above the tree line to alpine meadows and panoramic views.</p>
+          <p>Mount Richmond Forest Park is the second largest forest park in New Zealand. It is named after Mount Richmond (1760 metres), one of the highest peaks in the park. The park forms a backdrop to Nelson City, the Waimea Plains, and
+            surrounding country. In Marlborough, the mountains are a dominant feature of the Wairau and Pelorus Valleys.</p>
+        </div>
+      </div>
+
+      <!-- Tonga Island Marine Reserve  -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/tonga_island.jpg" alt="tonga island" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Tonga Island Marine Reserve</h2>
+          <p>One of the major attractions of Abel Tasman National Park, Tonga Island Marine Reserve includes sandy beaches, boulder headlands, rocky reefs and small estuaries. The reserve is named for Tonga Island, which is offshore from Onetahuti
+            Beach.</p>
+          <p>At any time of the year, sea kayaking is a great way to explore the reserve. Sea-kayakers can discover Mosquito Bay and Shag Harbour - beautiful coves that the walking track doesn’t reach. From a kayak you could also encounter dolphins
+            and penguins. Seals are common around Tonga Island, especially during winter when they travel north on their annual migration.</p>
+        </div>
+      </div>
+
+      <!--Golden Bay-->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_nels/golden_bay.jpg" alt="golden bay" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Golden Bay</h2>
+          <p>Before you lay eyes on Golden Bay, you'll enjoy an amazingly scenic road journey over the Takaka Hill, known also as 'marble mountain'. As the road leads west, fabulous views of Golden Bay will keep you entertained. The huge, sandy bay
+            is famous for its scallops. </p>
+          <p></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+  </body>
+
+  </html>

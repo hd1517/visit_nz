@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fiordland's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Fiordland's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item  active" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg9 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Fiordland</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Fiordland National Park is a World Heritage Site and includes Milford, Dusky and Doubtful Sounds. Milford Sound was described by Rudyard Kipling as the Eighth Wonder of the World; take a scenic flight over it and you will understand why.</p>
+      <p>Carved by glaciers over 100,000 years the landscape is one where waterfalls cascade hundreds of metres into deep black fiords; where ancient rainforest untouched by man clings to mountains and where shimmering lakes and granite peaks look as
+        they did a thousand years ago</p>
+      <p>Check out the top scenic destinations to see in Fiordland.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Doubtful Sound -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/doubtful.jpg" alt="doubtful sound" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Doubtful Sound</h2>
+          <p>Sometimes called the 'Sound of Silence' Doubtful Sound is the deepest (421 metres) and second longest (40 kilometres) of the South Island's fiords. The powerful serenity of the fiord, named Doubtful Harbour by Captain James Cook, who
+            didn't sail into the inlet because it looked a bit tight, contrasts with the nearby Milford Sound.</p>
+          <p>Doubtful Sound has some splendid waterfalls, particularly during the wetter seasons. In the Hall Arm, the Browne Falls cascades 619 metres; Helena Falls at Deep Cove tumbles 220 metres. Wildlife is another reason to visit this fiord -
+            keep an eye out for bottlenose dolphins, fur seals and penguins.</p>
+        </div>
+      </div>
+
+      <!-- Lake Te Anau -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/te_anau.jpg" alt="lake te anau" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Te Anau</h2>
+          <p>Lake Te Anau is the largest of the southern glacial lakes, covering an area of 344 square kilometres. The main body of the lake runs north-south and three large fiords reach out from its western side - these arms are called North Fiord,
+            Middle Fiord and South Fiord. Rolling hill country characterises the eastern side of the lake; the western side is a magnificent wilderness of forest and mountains - the Kepler and Murchison Ranges rise to around 1700 metres above sea
+            level.</p>
+          <p>Most of Lake Te Anau is within the boundaries of Fiordland National Park and the Te Wahipounamu World Heritage site. Of the two settlements on the shores of the lake, the township of Te Anau is the largest. Here you'll find operators who
+            can take you cruising or kayaking on the lake. You can also visit the Te Ana-au glowworm caves, which are still geologically active.</p>
+        </div>
+      </div>
+
+      <!-- Lake Manapouri -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/lake_manapouri.jpg" alt="lake manapouri" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Manapouri</h2>
+          <p>Considered to be New Zealand’s loveliest lake, Lake Manapouri was formed by glacial action in the most recent ice age - around 20,000 years ago.</p>
+          <p>This region was chosen as a filming location for the Lord of the Rings and The Hobbit movie trilogies. The Norwest Lakes were used to show the Fellowship travelling south from Rivendell; sections of the Waiau River, which flows between
+            Lakes Te Anau and Manapouri, were used for scenes of the River Anduin. Landscape shots of the lake itself were used for epic scenic frames when The Company flees on the backs of eagles.</p>
+        </div>
+      </div>
+
+      <!-- Fiordland National Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/fiordland_park.jpg" alt="fiordland national park" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Fiordland National Park</h2>
+          <p>This remarkable natural environment features stunning fiords, spectacular waterfalls and snow-capped peaks. Ancient rainforest clings impossibly to the mountains; waterfalls tumble hundreds of meters into massive fiords; shimmering lakes
+            and granite peaks look the same today as they did a thousand years ago.</p>
+          <p>On all sides of the fiords, spectacular waterfalls tumble incessantly as the region's plentiful rainfall finds its way to the sea. In 1990 Fiordland was listed as a United Nations World Heritage site and given the name Te Wahipounamu -
+            'the place of greenstone', after the area's most treasured mineral resource.</p>
+        </div>
+      </div>
+
+      <!-- The Milford Road -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/milford_road.jpg" alt="milford road" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>The Milford Road</h2>
+          <p>The road journey from Te Anau to Milford Sound is one of the most scenic experiences you can have on four wheels.</p>
+          <p>This road is much more than a way to get to Milford Sound; it's an unforgettable journey into the heart of Fiordland National Park and the Te Wahipounamu World Heritage area.</p>
+        </div>
+      </div>
+
+      <!-- Lake Monowai and Borland Nature Walk -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_fiord/lake_monowai.jpg" alt="lake monowai and borland" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Monowai and Borland Nature Walk</h2>
+          <p>Lake Monowai is a very peaceful paradise at the edge of Fiordland National Park.</p>
+          <p>Beautiful Lake Monowai powers one of the South Island's oldest hydroelectric stations and occupies a long, curved valley in the southern part of Fiordland National Park. The short, interpretive nature walk starts close to the lake and
+            tells the story of the beech forest.Explore a variety of plant types, look out for the small bush birds and stop at the picturesque creek.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>West Coast's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - The most beautiful places to see in the West Coast.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item active" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg12 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">West Coast</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>The West Coast, or 'the Coast' as locals call it, is an untamed natural wilderness of rivers and rainforests, glaciers and geological treasures.</p>
+      <p>It’s good if you’ve got your own transport because this region is 600km long and there’s a lot to see. In fact, the Great Coast Road stretching from Westport to Greymouth was recently voted one of the top 10 coastal drives in the world by Lonely Planet.</p>
+      <p>Check out West Coast's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Fox Glacier & Franz Josef Glacier-->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/fox_glacier.jpg" alt="fox glacier" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Fox Glacier & Franz Josef Glacier</h2>
+          <p>Witness the puzzle of huge valleys of ice that extend well below the snowline, almost to the sea. Here the ice age is still underway.</p>
+          <p>While glaciers around the world are retreating, the Fox and Franz Josef glaciers still flow almost to sea level. The temperate climate at this low altitude means these glaciers are among the most convenient to visit in the world. Easy walks to the foot of the glaciers pass along ancient river valleys with steep sides bearing gigantic horizontal scars from when the glaciers have retreated and advanced over millennia. When you stand close to the foot of these glaciers, their sheer enormity is very humbling.</p>
+        </div>
+      </div>
+
+      <!-- Oparara Basin -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/oparara.jpg" alt="oparara basin" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Oparara Basin</h2>
+          <p>Kayak and hike through fascinating limestone formations and ancient native forests in the southwest corner of the Kahurangi National Park.</p>
+          <p>Just north of Karamea, on the northern extremity of the South Island's west coast highway, the magnificent Oparara river basin offers explorers a 'lost world' experience. The basin is one of the finest features of the Kahurangi National Park. For a million years the Oparara river system has been sculpting the 35 million-year-old limestone into an intriguing complex of caves, arches and channels.</p>
+        </div>
+      </div>
+
+      <!-- Punakaiki -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/punakaiki.jpg" alt="punakaiki" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Punakaiki</h2>
+          <p>Gaze in wonder at the Punakaiki pancake rocks and blowholes, where columns of water shoot skyward from rocks that resemble giant stacks of hotcakes.</p>
+          <p>A well-maintained walkway to the pancake rocks leads through native forest before emerging into areas of coastal flax and scrub. The track offers magnificent views of the inland mountains, the rugged coastline and the main attraction, the pancake rocks and blowholes. Informative signage along the way helps you to make sense of what you're seeing - the best time to visit is at high tide.</p>
+        </div>
+      </div>
+
+      <!-- Lake Matheson -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/lake_matheson.jpg" alt="lake matheson" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Matheson</h2>
+          <p>Take a short walk to Lake Matheson and capture the perfect photograph of snow-capped Mount Cook reflected in the dark waters.</p>
+          <p>At Lake Matheson, near Fox Glacier, nature has combined exactly the right ingredients to create truly stunning reflections of New Zealand's highest peaks - Aoraki (Mount Cook) and Mount Tasman.The waters of Lake Matheson are dark brown, so on a calm day they create the ideal reflective surface. The colour is caused by natural leaching of organic matter from the surrounding native forest floor. By a happy coincidence, the mountains to the east are perfectly positioned to reflect in the lake.</p>
+        </div>
+      </div>
+
+      <!-- Charming Creek Walking Trail  -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/charming.jpg" alt="charming creek walking trail" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Charming Creek Walking Trail</h2>
+          <p>Hike along a disused railway line through tunnels, over bridges and along deep gorges. Enjoy native forest, waterfalls and sweeping views.</p>
+          <p>From the old mining settlement of Seddonville, this walkway follows an abandoned private railway line, once used to haul timber and coal out of the valley. You will pass through old railway tunnels and over several bridges, with one offering spectacular vistas of Mangatini Falls. At the base of the falls, look for the large, daisy-like clemisia morganii flowers and the rare, native snail - powelliphanta - known for its shiny shell.</p>
+        </div>
+      </div>
+
+      <!-- Kepler Track -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_wcoast/kepler.jpg" alt="kepler track" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Kepler Track</h2>
+          <p>This awe-inspiring track was designed to show you all the best features of Fiordland - mountains, native forest, waterfalls and glacier-carved valleys.</p>
+          <p>Opened in 1988, the track was carefully planned to show walkers all the best features of Fiordland - moss-draped beech forest, prolific bird life, tussock high country, huge mountain ranges, cascading waterfalls, vast glacier-carved valleys, luxuriant river flats and limestone formations. The track’s construction makes for easier walking. Most streams are bridged, boardwalks cover boggy areas and the very steep sections have steps. Walk the Kepler and you’ll see everything that’s marvellous about this exquisite corner of the world. </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+  </body>
+
+  </html>

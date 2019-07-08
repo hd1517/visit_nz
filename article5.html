@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Family Friendly Experiences in NZ</title>
+  <meta name="description" content="Visit New Zealand - New Zealand experiences that the whole family can enjoy.">
+  <meta name="keywords" content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg17 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Family Friendly Experiences</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content Section -->
+  <section class="content">
+    <div class="top">
+      <h1>FAMILY FRIENDLY EXPERIENCES</h1>
+      <p>Even little ones can go rafting or skiing – these activities aren’t just for grownups. From mini golf to mazes, hot air ballooning to hot pools, there’s plenty for the whole family to experience together.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Nature and Wildlife -->
+      <div class="list_image_div">
+        <img src="css/images/activities/nature/whale.jpg" alt="glow worms" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Nature and Wildlife</h2>
+          <p>New Zealand boasts some of the most unique birdlife in the world – a quarter of our birds are found nowhere else on the planet. As well as the famous flightless kiwi, this is the home of the colourful pukeko and takahe, the melodious
+            tui, and the mischievous kea to name a few. We have three species of penguin, all found in the South Island. You may encounter them in their natural habitats, or in zoos or wildlife parks and sanctuaries.</p>
+          <p>This is also a fantastic country for whale and dolphin spotting - the rare Hector’s dolphin is a South Island exclusive. There are sightseeing cruises available wherever these astonishing creatures are found; you can even swim alongside
+            them in the right conditions. See more in our <a href="#" id="nature" class="redirect">Nature and Wildlife</a> section.</p>
+        </div>
+      </div>
+
+      <!-- Hot Water Beach -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_coro/hot_water.jpg" alt="hot water beach" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Hot Water Beach</h2>
+          <p>Naturally heated mineral water bubbles up from deep within the earth to emerge through golden sand at the appropriately named Hot Water Beach.</p>
+          <p>Near the rocks at the southern end of the beach you can dig your own spa pool in the sand. Dig up to two hours either side of low tide – that's when the tide is low enough to expose the area of sand with hot water underneath. It's a
+            strange but very pleasant feeling to be lying in a pool of hot water just metres from the refreshing sea.</p>
+          <p>From the hot water area, the long sandy beach stretches north and curves east under a headland. Here you'll find sheltered and secluded spots for quiet, sleepy sunbathing.</p>
+        </div>
+      </div>
+
+      <!-- Hiking -->
+      <div class="list_image_div">
+        <img src="css/images/articles/hike.jpg" alt="hiking" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Walk in beautiful landscapes and explore vast wilderness areas</h2>
+          <p>Exploring New Zealand's walking and hiking trails is one of the most rewarding ways of seeing the country’s outstanding natural beauty. Spend a day with a fantastic guide or host who can take you from your lodge for an intimate, authentic outdoor experience.</p>
+        </div>
+      </div>
+
+      <!-- Zorb -->
+      <div class="list_image_div">
+        <img src="css/images/activities/adventure/zorb.jpg" alt="zorb" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Zorb</h2>
+          <p>OGO Rotorua is the largest ball rolling park in the world and is operated by the inventors of this iconic New Zealand experience.</p>
+          <p>The experience of rolling down a hill inside a giant inflatable ball has been an iconic NZ bucket list adventure experience since Andrew and David Akers invented and developed the first operation in the world back in 1995 on this very site! With FOUR different tracks to choose from, wet or dry ride styles, OGO Rotorua is the perfect opportunity to let your inner child come out to play. Think of it like a giant water slide, 40 litres of (warm) water, slipping and sliding - there is no tumbling involved just full on belly laughs from top to bottom.</p>
+        </div>
+      </div>
+
+      <!-- Museum -->
+      <div class="list_image_div">
+        <img src="css/images/articles/te_papa.jpg" alt="te papa museum" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Museums</h2>
+          <p>Get a feel for our history and culture at one of the country’s many museums. Auckland’s MOTAT (Museum of Transport and Technology) is a hit with children and Wanaka’s Transport & Toy Museum appeals to all ages. Every town and city has its own selection of museums, but whatever you do, make time to visit Te Papa – the Museum of New Zealand – in Wellington. Open every day of the year, its collections span art, history, nature, and Maori and Pacific exhibitions, and are renowned for being informative,  innovative, and fun.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@4.2.1/dist/simpleParallax.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

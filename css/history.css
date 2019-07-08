@@ -1,0 +1,653 @@
+body {
+  height: 100%;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #5A2014;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+/* ---------------------------- Float Up Styles ---------------------------- */
+.no-view {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------------------------- Navbar Styles ---------------------------- */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  padding-left: 15px;
+}
+
+.navbar-brand span {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding-left: 3px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-shadow: .5px .5px .5px #000;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* change the color of hovered links */
+.nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+  padding-bottom: 8px;
+  transition: 0.3s;
+}
+
+/* change the color of active links */
+.nav-item.active .nav-link {
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 3px solid #7c2c1c;
+}
+
+/* change the brand and text color */
+.navbar-brand,
+.navbar-text {
+  color: #eaeaea;
+}
+
+/* change the brand and text color on hover */
+.navbar-brand:hover,
+.navbar-text:hover {
+  color: #fff;
+}
+
+/* change navbar to transparent */
+.navbar {
+  background-color: transparent !important;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+/* add this class to navbar on scroll down */
+.scrollDownColor {
+  background-color: #282828 !important;
+}
+
+/* change toggler icon color */
+.myToggler.navbar-toggler {
+  border-color: rgba(255, 255, 255, .8);
+}
+
+.myToggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, .8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-custom {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 100%;
+  left: 13px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  */
+}
+
+.dropdown-custom1 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 8rem;
+}
+
+.dropdown-custom2 {
+  border-radius: 0;
+  background-color: #333;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  border: none;
+  min-width: 7rem;
+}
+
+.dropdown-heading {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.dropdown-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-left: 0.9rem;
+}
+
+.custom-item {
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.custom-item1 {
+  font-size: 0.65rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background-color: #dbdbdb;
+  transition: 0.5s;
+  color: #000;
+}
+
+.dropdown-item.active {
+  border-bottom: 3px solid #7c2c1c;
+  background-color: #282828;
+  color: #fff;
+}
+
+/* ---------------------------- Header Styles ---------------------------- */
+.headerImg {
+  background: url("images/headers/history.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: 6vw; */
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: rgba(0, 0, 0, .2);
+  margin-bottom: 70px;
+}
+
+/* ---------------------------- Back to Top button Styles ---------------------------- */
+.go-top {
+  position: fixed;
+  bottom: 4.5em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  padding: 1em;
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ---------------------------- Content Styles ---------------------------- */
+.history-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.first-h3 {
+  margin-top: 100px;
+}
+
+.second-h3 {
+  margin-top: 150px;
+}
+
+.third-h3 {
+  margin-top: 80px;
+}
+
+.img-right {
+  position: absolute;
+  top: -60px;
+  right: 80px;
+}
+
+.img-right1 {
+  position: absolute;
+  top: -60px;
+  right: 20px;
+}
+
+.img-right2 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.img-right-div {
+  padding-right: 40%;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.img-right-div1 {
+  padding-right: 45%;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.img-right-div2 {
+  padding-right: 45%;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.img-left-div {
+  padding-left: 35%;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.img-left-div1 {
+  padding-left: 40%;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.img-left {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.img-left1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.with-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.list {
+  margin-bottom: 100px;
+}
+
+.list-image {
+  width: 90%;
+  height: auto;
+}
+
+.list-image-div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.top h1 {
+  font-size: 70px;
+  color: #5A2014;
+}
+
+.top p {
+  padding: 0 20%;
+}
+
+/* ---------------------------- Footer Section Styles ---------------------------- */
+.footerSection {
+  padding: 20px;
+  background-color: #282828;
+  margin-bottom: 0;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* ---------------------------- Media Queries Styles ---------------------------- */
+@media (max-width: 1199px) {
+  .with-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /* change navbar color on collapse */
+  nav.navbar {
+    background: #282828 !important;
+  }
+
+  .container {
+    max-width: 880px;
+  }
+
+  .img-file {
+    width: 90%;
+    height: auto;
+  }
+
+  .img-right {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+  }
+
+  .img-left {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  .img-right1 {
+    position: absolute;
+    top: -40px;
+    right: -10px;
+  }
+
+  .img-right2 {
+    position: absolute;
+    top: 0;
+    right: -10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .img-file {
+    width: 80%;
+    height: auto;
+  }
+
+  .img-right {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+  }
+
+  .img-right1 {
+    position: absolute;
+    top: -40px;
+    /* right: -50px; */
+  }
+
+  .img-right2 {
+    position: absolute;
+    top: 0;
+    /* right: -50px; */
+  }
+
+  .img-left-div {
+    padding-left: 30%;
+  }
+}
+
+@media (max-width:768px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .first-h3 {
+    margin-top: 70px;
+  }
+
+  .headerImg {
+    height: 70vh;
+  }
+
+  .overlay {
+    height: 70vh;
+  }
+
+  .img-file {
+    width: 75%;
+    height: auto;
+  }
+
+  .img-left {
+    position:absolute;
+    left: 0;
+  }
+
+  .img-left1 {
+    position:absolute;
+    left: -20px;
+  }
+
+  .img-right {
+    position: absolute;
+    top: -30px;
+  }
+
+  .img-right1 {
+    position: absolute;
+    top: -30px;
+  }
+
+  .img-right2 {
+    position: absolute;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .img-right {
+    position: static;
+  }
+
+  .img-right1 {
+    position: static;
+  }
+
+  .img-right2 {
+    position: static;
+  }
+
+  .img-right-div {
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .img-right-div1 {
+    padding-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .img-right-div2 {
+    padding-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .img-file {
+    width: 50%;
+    height: auto;
+  }
+
+  .first-h3 {
+    margin-top: 50px;
+  }
+
+  .second-h3 {
+    margin-top: 0;
+  }
+
+  .img-left {
+    position: static;
+  }
+
+  .img-left1 {
+    position: static;
+  }
+
+  .img-left-div {
+    padding-left: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .img-left-div1 {
+    padding-left: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+ .headerTitle {
+   font-size: 4rem;
+ }
+
+ .top h1 {
+   font-size: 60px;
+ }
+}
+
+@media (max-width: 495px) {
+  .navbar-brand {
+    font-size: .8rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .first-h3 {
+    margin-top: 20px;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .history-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .list {
+    margin-bottom: 30px;
+  }
+
+.top {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+
+  .top h1 {
+    font-size: 40px;
+  }
+
+  .top p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

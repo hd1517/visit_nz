@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dunedin's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - visit the top scenic attractions for Dunedin.">
+  <meta name="keywords" content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item active" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg7 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Dunedin</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Dunedin is a region of unique landscapes and fascinating cultural history. Enjoy getting close to rare wildlife and soaking up the quirky city vibe.</p>
+      <p>Known as the Edinburgh of New Zealand, Dunedin is the country's city of the south, wearing its Scottish heritage with pride. Surrounded by dramatic hills and at the foot of a long, picturesque harbour, Dunedin is one of the best-preserved Victorian and Edwardian cities in the Southern Hemisphere. On Dunedin’s doorstep you will also find incredible wildlife including the world’s rarest penguin colonies.</p>
+      <p>Check out Dunedin's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Dunedin Botanic Garden -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/botanic_gardens.jpg" alt="dunedin botanic gardens" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Dunedin Botanic Garden</h2>
+          <p>The Dunedin Botanic Garden is the crowning glory of the city and are a six-star Garden of International Significance.</p>
+          <p>Established in 1863 as the first Botanic Gardens in New Zealand, the 28-hectare grounds are resplendent with over 6,800 plant species and the song of wild native bellbirds, wood pigeons and Tui. The sprawling lower gardens feature the rather unique Edwardian Winter Garden glasshouse containing tropical plants, cacti and succulents which overlooks the serene Japanese Garden complete with a bamboo grove. </p>
+        </div>
+      </div>
+
+      <!-- Moeraki Boulders -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/moeraki.jpg" alt="moeraki boulders" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Moeraki Boulders</h2>
+          <p>Moeraki is now most famous for its boulders; mysteriously spherical stones scattered across a beach. Each boulder weighs several tonnes and is up to two metres high.Scientists explain the boulders as calcite concretions formed about 65 million years ago. According to Maori legend, the boulders are gourds washed ashore from the great voyaging canoe Araiteuru when it was wrecked upon landfall in New Zealand hundreds of years ago.</p>
+        </div>
+      </div>
+
+      <!-- St Clair Beach -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/st_clair.jpg" alt="st clair beach" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>St Clair Beach</h2>
+          <p>A sweeping white-sand beach just minutes from the central city, St Clair is a popular spot for surfing, swimming, walking and socialising and dining out.</p>
+          <p>Facing the wild blue expanse of the Pacific Ocean, St Clair Beach boasts New Zealand’s most consistent surf break and on any given day, summer or winter, the waves are a playground for local surfers.</p>
+        </div>
+      </div>
+
+      <!-- Oamaru Public Gardens -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/oamaru.jpg" alt="oamaru public gardens" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Oamaru Public Gardens</h2>
+          <p>A botanical wonderland from Victorian days, the Oamaru Public Gardens are a beautiful place to stroll and dream.</p>
+          <p>You'll feel the magic of Oamaru Public Gardens the moment you enter the classical main gates on Severn Street. Started in 1876, these gardens are a botanical expression of Oamaru's Victorian history. Highlights in the gardens include the Japanese Red Bridge, the Oriental Garden, the Fragrant Garden and the large trees around the band rotunda. Special details from Victorian times can be seen everywhere - a sundial, croquet lawns, a wishing well, an aviary and a peacock house.</p>
+        </div>
+      </div>
+
+      <!-- Otago Goldfields Heritage Trail  -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/goldfields.jpg" alt="otago goldfields heritage trail" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Otago Goldfields Heritage Trail</h2>
+          <p>A series of historic reserves and walkways will help you to unearth the stories from Central Otago's gold rush glory days.</p>
+          <p>Like a giant outdoor museum, the Otago Goldfields Trail combines exciting walkways and mountain biking trails with opportunities to see the weathered remains of human endeavour from the 1860s.</p>
+        </div>
+      </div>
+
+      <!-- Glenfalloch Woodland Garden -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_dune/glenfalloch.jpg" alt="glenfalloch woodland garden" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Glenfalloch Woodland Garden</h2>
+          <p>Follow the trails around beautiful Glenfalloch Woodland Garden, which has been has been named a "Garden of Regional Significance" by the New Zealand Garden Trust.</p>
+          <p>Glenfalloch (which is Gaelic for "hidden valley") is located on Otago Peninsula, just 15 minutes drive from Dunedin's central business district. For more than 120 years, Glenfalloch has been cultivated to showcase rhododendrons, azaleas, magnolias, fuchsias and a profusion of other flower species. Exotic plants are artistically integrated with native ferns and trees. A 1000-year-old matai has pride of place amidst mature oak, walnut, elm, horse chestnut, birch and English beech trees. Panoramic views of the harbour can be enjoyed from many places in the valley.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

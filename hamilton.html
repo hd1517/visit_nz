@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hamilton's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Hamilton's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item active" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg5 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Hamilton - Waikato</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Well-known for its underground wonders, black sand surf beaches and rolling green hills, the Hamilton - Waikato region of New Zealand offers a wealth of nature-based activities and attractions surrounding a vibrant city hub.</p>
+      <p>Known for its scenic diversity, this region offers a myriad of options for those keen on walking, hiking and cycling, from casual strolls along the Waikato River to overnight bush excursions and winding mountain biking tracks. </p>
+
+      <p>Check out the top scenic destinations to see in the Hamilton and Waikato Region.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Hamilton Gardens -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_ham/gardens.jpg" alt="hamilton gardens" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Hamilton Gardens</h2>
+          <p>One of the Hamilton-Waikato region's most visited attractions, Hamilton Gardens hasn't been developed in the manner of conventional botanic gardens. Instead, it explores the relationships between people and plants, telling the story of
+            gardens through different civilisations, in five garden collections that are spread over 58 hectares.</p>
+          <p>The Paradise Garden Collection includes gardens that represent China, England, Japan, America, Italy and India. Each garden is highly individual with a totally different design philosophy. Highlights include the Indian Char Bagh Garden,
+            Italian Renaissance Garden, Chinese Scholars’ Garden and more.</p>
+        </div>
+      </div>
+
+      <!-- Te Waihou Walkway -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_ham/te_waihou.jpg" alt="te waihou walkway" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Te Waihou Walkway</h2>
+          <p>Follow the Te Waihou Walkway to the famous Blue Spring, one of the purest water sources in the world, which supplies around 70 per cent of New Zealand's bottled water.</p>
+          <p>Traveling alongside the Waihou River, the track winds through wetlands, across rolling pastures and past small waterfalls to the turquoise water of the spring.</p>
+        </div>
+      </div>
+
+      <!-- Waitomo Caves -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_ham/waitomo.jpg" alt="waitomo caves" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Waitomo Caves</h2>
+          <p>Under the green hills of Waitomo lies a labyrinth of caves, sinkholes and underground rivers. The area's name comes from the Maori words wai (water) and tomo (hole).</p>
+          <p>The easiest way to see the Waitomo Caves is with a walking or boat tour. If you’re into adventure, try the unique experience of Black Water Rafting - you'll crawl, swim and float through the caves on a rubber tube. Or you could abseil or
+            zip-line through the darkness. However you choose to explore Waitomo Caves, you're bound to agree they're a wonder of nature.</p>
+        </div>
+      </div>
+
+      <!-- Sanctuary Mountain Maungatautari -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_ham/maungatautari.jpg" alt="sanctuary mountain maungatautari" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Sanctuary Mountain Maungatautari</h2>
+          <p>Sanctuary Mountain Maungatautari is an ecological ‘island’ where you'll find native wildlife, plants and great walking trails.</p>
+          <p>The most popular walk in the reserve is the Southern Enclosure(Te Tuia a Taane). This family-friendly walk will appeal to all ages. Follow 5km of track as it winds through New Zealand forest and get up close with native birds such as
+            kaka, peak inside the weta nest boxes, and climb the canopy viewing tower for a birds eye view of the forest below.</p>
+        </div>
+      </div>
+
+      <!-- Matamata -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_ham/matamata.jpg" alt="Matamata" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Matamata</h2>
+          <p>Matamata is a must see if you're a Lord of the Rings and Hobbit fan.</p>
+          <p>45 minutes from Hamilton lies the lush farmland of Hobbiton Movie Set; it has more than 44 unique hobbit holes, including Bag End (Bilbo's house). As you wander through the heart of the Shire, you'll get to hear the fascinating
+            commentary about how it was all created.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

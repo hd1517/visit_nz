@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>A Brief History of NZ</title>
+  <meta name="description" content="Visit New Zealand - A brief history of the last large and habitable place in the world to be discovered.">
+  <meta name="keywords" content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Montserrat:400,600,700,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/history.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item active" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header no-padding">
+      <div class="headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">History</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content Section -->
+  <section class="content">
+    <div class="top">
+      <h1>A BRIEF HISTORY</h1>
+      <p>New Zealand is a young country, in both geological and human terms. In fact, New Zealand was the last large and habitable place in the world to be discovered.</p>
+    </div>
+
+    <div class="container list">
+      <!-- Maori Settlement -->
+      <div class="list-image-div no view">
+        <img src="css/images/history/maori2.jpg" alt="maori" class="list-image no-view">
+      </div>
+      <div class="row list">
+        <div class="history-content no-view">
+          <h2>Māori settlement</h2>
+          <p>First to arrive were ancestors of Māori. The first settlers probably arrived from Polynesia between 1200 and 1300 AD. They discovered New Zealand as they explored the Pacific, navigating by ocean currents and the winds and stars.</p>
+          <p>In some traditions, the navigator credited with discovering New Zealand is Kupe.</p>
+        </div>
+      </div>
+
+      <!-- Europeans -->
+      <div class="container">
+        <h2>The first Europeans</h2>
+      </div>
+      <div class="container left-align with-padding ">
+        <div class="container img-right-div">
+          <h3 class="first-h3">The Dutch</h3>
+          <p>The first European to arrive in New Zealand was the Dutch explorer Abel Tasman in 1642. That is how we got the Dutch-sounding name - from a Dutch mapmaker who first called us Nieuw Zeeland.</p>
+          <figure class="img-right no-view">
+            <img class="img-file" src="css/images/history/abel_tasman.jpg" alt="abel tasman">
+            <figcaption>Abel Tasman</figcaption>
+          </figure>
+        </div>
+        <div class="container img-left-div">
+          <h3 class="second-h3">British and French</h3>
+          <p>A surprisingly long time passed - 127 years - before New Zealand was visited by another European, Captain James Cook. He came in 1769 on the first of three voyages.</p>
+          <p>European whalers and sealers started visiting regularly and then came traders.</p>
+          <p>By the 1830s, the British government was being pressured to curb lawlessness in the country and also to pre-empt the French who were considering New Zealand as a potential colony.</p>
+          <figure class="img-left no-view">
+            <img class="img-file" src="css/images/history/james_cook.jpg" alt="james_cook">
+            <figcaption>James Cook</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Treaty of Waitangi -->
+      <div class="list-image-div no view">
+        <img src="css/images/history/sign.jpg" alt="treaty of waitangi" class="list-image no-view">
+      </div>
+      <div class="row list">
+        <div class="history-content no-view">
+          <h2>Treaty of Waitangi</h2>
+          <p>Eventually, at Waitangi on 6 February 1840, William Hobson, New Zealand’s first Governor, invited assembled Māori chiefs to sign a treaty with the British Crown.</p>
+          <p>For more information, see our <a href="treaty.html">Treaty of Waitangi</a> page.</p>
+        </div>
+      </div>
+
+      <!-- The Wars -->
+      <div class="container">
+        <h2>Social change, war and independence</h2>
+      </div>
+      <div class="container left-align with-padding ">
+        <div class="container img-right-div1">
+          <h3 class="first-h3">Rights for women and workers</h3>
+          <p>In 1893, New Zealand became the first country in the world to grant all women the right to vote. State pensions and state housing for workers were also offered first in New Zealand.</p>
+          <figure class="img-right1 no-view">
+            <img class="img-file" src="css/images/history/women_vote1.jpg" alt="women vote">
+            <figcaption>Women's suffrage</figcaption>
+          </figure>
+        </div>
+        <div class="container img-left-div1">
+          <h3 class="second-h3">World War I and the ANZACs</h3>
+          <p>Thousands of New Zealanders served, and died, overseas in the First World War.</p>
+          <p>The 1915 landing at Gallipoli in Turkey is regarded as a coming of age for our country. It established the tradition of ANZAC (Australian and New Zealand Army Corps) and a pride in New Zealand’s military achievement and its special
+            relationship with Australia.</p>
+          <p>ANZAC Day, commemorating the Gallipoli landing, is a public holiday on April 25 each year and is marked with increasingly well-attended ceremonies. To explain the history of the day and its significance to New Zealand today, WW100 has
+            created brief guides, translated into 3 languages.</p>
+          <figure class="img-left1 no-view">
+            <img class="img-file" src="css/images/history/ww_1.jpg" alt="nz during world war I">
+            <figcaption>NZ during World War I</figcaption>
+          </figure>
+        </div>
+        <div class="container img-right-div2">
+          <h3 class="third-h3">World War II</h3>
+          <p>New Zealand troops fought overseas again in the Second World War in support of the UK. However, the fall of Singapore shook New Zealanders’ confidence that Britain could guarantee the country’s security.</p>
+          <p>With the bulk of our forces effectively stranded in Egypt and the Middle East, it was the United States that protected New Zealand against Japan during the war in the Pacific.</p>
+          <figure class="img-right2 no-view">
+            <img class="img-file" src="css/images/history/ww_2.jpg" alt="nz during world war II">
+            <figcaption>No. 487 Squadron RNZAF - World War II</figcaption>
+          </figure>
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@4.2.1/dist/simpleParallax.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

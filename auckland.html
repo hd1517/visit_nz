@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Auckland's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Auckland's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item active" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg1 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Auckland</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content Section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>The harbour side city of Auckland is surrounded by natural attractions. </p>
+      <p>On the West Coast you’ll find ruggedly beautiful black-sand beaches. Auckland’s East Coast is home to more tranquil coastline that looks out to harbours dotted with islands.</p>
+      <p>Check out the top scenic destinations to see in Auckland.</p>
+    </div>
+
+    <div class="container list">
+      <!-- Muriwai -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/muriwai.jpg" alt="muriwai" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Muriwai Gannet Colony</h2>
+          <p>Muriwai's gannet colony is a one hour drive from the centre of Auckland. Next to the car park, a short walking track leads to a viewing platform right above the main colony area. Out to sea, the colony continues on two vertical-sided
+            islands. About 1,200 pairs of gannets nest here from August to March each year.</p>
+          <p>The views from the colony are very impressive. Muriwai Beach extends 60 kilometres to the north - a line of black sand between the thundering surf and the sand hills. Far below, enthusiastic surfers look like seals on the large ocean
+            swells.</p>
+        </div>
+      </div>
+
+      <!-- Rangitoto -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/rangitoto.jpg" alt="rangitoto" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Rangitoto Island</h2>
+          <p>Rangitoto is Auckland’s most iconic island, with its distinctive symmetrical cone and superb location just off the coast. Only a short scenic ferry ride across the harbour from downtown Auckland, the island is a favourite destination for
+            hikers and day-trippers. Emerging unexpectedly from the sea some 600 years ago, it is the youngest and largest volcano in the Auckland volcanic field.</p>
+          <p>Water lovers can take a guided sea kayaking trip out to Rangitoto – the adventurous can even try a night kayak, heading out in the evening to watch a spectacular sunset from the summit before paddling back in the dark under the stars
+            towards the glowing city lights.</p>
+        </div>
+      </div>
+
+      <!-- Waiheke -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/waiheke.jpg" alt="waiheke" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Waiheke Island</h2>
+          <p>The white sandy beaches at Oneroa, Palm Beach and Onetangi slope gently down into the Hauraki Gulf and are perfect for swimming, kayaking, or having a picnic.</p>
+          <p>If you’re a walker, explore the island’s trails which meander along cliff tops, down to the beaches and into cool enclaves of native forest. At the eastern end of the island the Stony Batter walkway leads you to a system of World War II
+            gun emplacements and underground tunnels. </p>
+          <p>Getting around is easy too. Catch one of the regular ferries that run to Waiheke from downtown Auckland. Once on the island, there are public buses and taxis, or you can hire a mountain bike, motor scooter or car. And if you've already
+            got a car or bike, you can bring it over with you on the car ferry.</p>
+        </div>
+      </div>
+
+      <!-- Piha -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/piha.jpg" alt="piha" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Piha</h2>
+          <p>Piha is a scenic black-sand surf beach on the rugged coast west of Auckland. There are several walks through native forest in the surrounding hills.</p>
+          <p>A laid-back seaside village 45 minutes west of Auckland city, Piha is popular with local kiwis - especially in summertime. The dramatic beach, which is marked at each end by rugged cliffs, is a popular surfing location. The water has
+            strong and often dangerous currents. However, in summer, surf lifesavers patrol an area clearly flagged for swimmers. </p>
+          <p>You can take surfing lessons or try abseiling down the Piha canyon. Bring a picnic or visit the beachside surf club for a bite to eat.</p>
+        </div>
+      </div>
+
+      <!-- Shakespeare Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/shakespeare.jpg" alt="shakespeare park" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Shakespeare Regional Park</h2>
+          <p>Situated at the end of a narrow peninsula, Shakespear Regional Park offers sweeping cliff top views and a beach along either side</p>
+          <p>If you're feeling more energetic there are several walking trails to discover. The Heritage Trail passes through native forest, wetlands and farmland to reach historic sites including a World War II gun emplacement. The Tiri Tiri Track
+            takes you from Te Haruhi Bay along the beach and past an old Maori settlement before following the cliff line to views of Tiritiri Matangi Island wildlife sanctuary. Native birds from the sanctuary have begun migrating across to the
+            regenerating native forest in the park.</p>
+        </div>
+      </div>
+
+      <!-- Goat Island -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_akl/goat_island.jpg" alt="goat island" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Goat Island Marine Reserve</h2>
+          <p>Goat Island, the local name for Cape Rodney/Okakari Point Marine Reserve, was New Zealand's first marine reserve. It was established in 1975 and in less than 10 years it became a rich ecological area, teeming with fish and other sea
+            life.</p>
+          <p>The best way to experience the reserve and its inhabitants is to get into the water. With a mask and snorkel you can explore the sand and rocks close to shore while scuba divers can visit deeper areas further out. Divers need to be
+            careful not to break off small fragile animals such as gorgonian fans, lace corals and sponges - some of these are hundreds of years old. In shallow areas of the reserve, particularly off the main beach, you will see many varieties of
+            fish and shellfish. At low tide you can explore the rocky shore, taking care not to disturb rock pool creatures.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@4.2.1/dist/simpleParallax.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

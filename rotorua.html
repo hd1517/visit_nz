@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rotorua's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Rotorua's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item active" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg2 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Rotorua</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Rotorua is known for bubbling mud pools, shooting geysers and natural hot springs, as well as showcasing our fascinating Māori culture.</p>
+      <p>From crystal-clear streams and magical forests, to epic biking trails and thermal mud pools, Rotorua has it all. The city offers a raft of attractions and experiences for everyone from adventure-seekers to those just looking to unwind.</p>
+      <p>Check out Rotorua's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Kuirau Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/kuirau.jpg" alt="kuirau park" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Kuirau Park</h2>
+          <p>Take a walk and discover the steaming, hissing and bubbling geothermal activity in this informal public park located right next to Rotorua's city centre.</p>
+          <p>Walking tracks lead to numerous areas of vigorous geothermal activity.</p>
+        </div>
+      </div>
+
+      <!-- Hamurana Springs -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/hamurana.jpg" alt="hamurana springs" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Hamurana Springs</h2>
+          <p>Hamurana Springs is the deepest natural spring in the North Island. Its waters are shot with hues of turquoise, greens and blues; flowing directly into Lake Rotorua.</p>
+          <p>If you’re keen to explore this area on foot, there’s a scenic loop track through a Californian Redwood and native forest grove that is a favourite picnic spot for locals. The 45 minute return journey is suitable for all ages and fitness
+            levels. Otherwise explore with Rotorua Paddle Tours on a stand-up paddle board, suitable for beginners, along the Hamurana Stream.</p>
+        </div>
+      </div>
+
+      <!-- Whakarewarewa Forest -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/redwoods.jpg" alt="redwoods forest" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Whakarewarewa Forest (The Redwoods)</h2>
+          <p>Known to locals simply as ‘The Redwoods’, the 55,000ha Whakarewarewa Forest is a playground for mountain bikers, walkers, hikers and horse riders set amongst magnificent stands of towering Californian Redwoords, lush native forest and
+            exotic trees.</p>
+          <p>The trails weave through native ferns beneath soaring forest canopies of Redwood, Radiata, Douglas Fir, Eucalyptus and Larch trees. Once above the canopy, riders get to appreciate panoramic views of Rotorua’s beautiful lakes, geothermal
+            activity and brooding Mt. Tarawera.</p>
+        </div>
+      </div>
+
+      <!-- Government Gardens -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/govt_house.jpg" alt="government gardens" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Government Gardens</h2>
+          <p>Explore historic gardens that surround a Tudor-style spa bath house and an ornate Mediterranean-style public swimming pool. Peer through the steam into ancient bubbling geothermal pools.</p>
+          <p>Today this magnificent building houses a museum and an award-winning exhibition on the days when people came from all over the world to 'take the waters'.</p>
+        </div>
+      </div>
+
+      <!-- Lake Rotorua -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/lake.jpg" alt="lake rotorua" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Rotorua</h2>
+          <p>Two hundred thousand years ago a lake was created after a violent eruption which is now known as Lake Rotorua. Today the lake is the heart of the region with the popular city of Rotorua located right on its shores. </p>
+          <p>In the centre of Lake Rotorua is Mokoia Island, the setting for one of New Zealand's most famous love stories - the story of Hinemoa and Tutanekai.</p>
+        </div>
+      </div>
+
+      <!-- Okere Falls Track -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_roto/okere.jpg" alt="okere falls" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Okere Falls Track</h2>
+          <p>Okere River, 'the place of drifting', plummets and scurries through steep, forested ravines before entering the tranquil waters of the Trout Pool. Its beauty can be enjoyed from the Okere Falls Scenic Reserve, which is located 21
+            kilometres from Rotorua on Trout Pool Road.</p>
+          <p>Walking tracks in the reserve lead to four picturesque waterfalls, the site of Rotorua's first hydro-electric power station, the Tutea Caves and Hinemoa's Steps. The tracks are well-formed and information panels along the way explain the
+            natural and man-made features within the reserve. From a viewing platform near Hinemoa's Steps you can watch rafters descend the highest commercially rafted waterfall in the world - an 11 metre, white watered plunge into a deep lazy pool
+            below.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

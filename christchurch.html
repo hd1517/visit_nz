@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Christchurch and Canterbury Attractions</title>
+  <meta name="description" content="Visit New Zealand - Christchurch and Canterbury top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item active" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg8 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Christchurch - Canterbury</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>Set against a majestic backdrop from the alps to the ocean, Christchurch and Canterbury offer visitors a unique and diverse destination.</p>
+      <p>From lush vineyards and wild coastlines to sky-piercing mountains and pristine glacial lakes, Canterbury is a region of remarkable contrasts and a haven for those seeking incredible scenery and adventure. From Christchurch city, you’ll find
+        the sparkling Pacific Ocean, the majestic Southern Alps and an ancient volcanic peninsula all within driving distance.</p>
+      <p>Check out Christchurch and Canterbury's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Arthur's Pass National Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/arthurs_pass.jpg" alt="arthur's pass national park" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Arthur's Pass National Park</h2>
+          <p>The highest pass over the Southern Alps, Arthur's Pass was historically known to Maori hunting parties as a route between east and west.</p>
+          <p>The eastern side of Arthur's Pass National Park is characterised by wide, shingle-filled riverbeds and vast beech forests. The western side of the park, where wet weather is more common than dry, has deeply gorged rivers flowing through
+            dense rainforest. Down the middle of 'the great divide' is an alpine dreamland of snow-covered peaks, glaciers and scree slopes.</p>
+        </div>
+      </div>
+
+      <!-- Lake Sumner -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/lake_sumner.jpg" alt="lake sumner" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Sumner</h2>
+          <p>Dust off your hiking boots and discover remote high country lakes, beech-clad mountains, wide rivers and hot springs.</p>
+          <p>This scenic park provides a safe haven for rare species and is renowned for its rewarding multi-day hikes. All the routes involve river crossings and some navigation skills, so both previous hiking experience and suitable equipment are
+            required.</p>
+        </div>
+      </div>
+
+      <!-- Lake Tekapo -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/lake_tekapo.jpg" alt="lake tekapo" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Tekapo</h2>
+          <p>Picturesque by day and dazzling by night, Lake Tekapo is part of a UNESCO Dark Sky Reserve, making it the perfect spot for stargazing.</p>
+          <p>Lake Tekapo is about three hours drive south-west of Christchurch in the Mackenzie Basin. The township faces north across the remarkable turquoise coloured lake to the mountainous drama of the Southern Alps. Lake Tekapo gets its intense
+            milky-turquoise colour from the fine rock-flour (ground by glaciers) which is suspended in the water.</p>
+        </div>
+      </div>
+
+      <!-- Akaroa -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/akaroa.jpg" alt="akaroa" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Akaroa</h2>
+          <p>The most French town in New Zealand, Akaroa will have you entranced with its historic buildings, magnificent harbour and passion for fine food.</p>
+          <p>Located on the south east side of the deep, sheltered Akaroa Harbour, the charming township of Akaroa has a special point of difference - it was the only French settlement in New Zealand.</p>
+        </div>
+      </div>
+
+      <!-- Christchurch Botanic Gardens  -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/botanic_gardens.jpg" alt="christchurch botanic gardens" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Christchurch Botanic Gardens</h2>
+          <p>Founded over 150 years ago, the Christchurch Botanic Gardens is the green heart of the Garden City.</p>
+          <p>The Christchurch Botanic Gardens have grown from small beginnings to become a much-loved destination for Cantabrians and visitors alike. Over the years natural wetlands and sand dunes have been transformed into an elegantly cultivated 21
+            hectare park with more than 10 different gardens framed by mature trees and expansive lawns, which are mostly contained within a loop of the Avon River.</p>
+        </div>
+      </div>
+
+      <!-- Aoraki Mount Cook National Park -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_chch/aoraki.jpg" alt="aoraki mount cook national park" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Aoraki Mount Cook National Park</h2>
+          <p>Mt Cook, the tallest mountain in New Zealand, helped Sir Edmund Hillary to develop his climbing skills in preparation for the conquest of Everest.</p>
+          <p>Aoraki Mount Cook National Park is home of the highest mountains and the longest glaciers. It is alpine in the purest sense - with skyscraping peaks, glaciers and permanent snow fields, all set under a star-studded sky.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

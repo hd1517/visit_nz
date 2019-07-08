@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Taupo's Scenic Attractions</title>
+  <meta name="description" content="Visit New Zealand - Check out Taupo's top scenic attractions.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/attractions_style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item active" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg6 headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">Taupō</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <div class="top">
+      <h1>SCENIC ATTRACTIONS</h1>
+      <p>New Zealand’s largest lake, an ancient volcanic landscape, lush native forests and geothermal activity make Taupō home to varied scenic highlights.</p>
+      <p>The lakeside town of Taupō provides a base for visitors who love to fish for trout, ski Mount Ruapehu and explore the local geothermal phenomena. Popular Taupō experiences include Huka Falls, geothermal walks, a prawn farm, lake cruises, New
+        Zealand's first public cable wakeboarding park and guided kayak expeditions to see the rock carvings at Mine Bay. </p>
+      <p>Check out Taupō's top scenic attractions below.</p>
+    </div>
+
+    <div class="container list">
+
+      <!-- Huka Falls -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/huka.jpg" alt="huka falls" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">1</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Huka Falls</h2>
+          <p>At Huka Falls you can witness the phenomenon of natural hydro power with more than 220,000 litres of water per sec barreling over 11meter high waterfall.</p>
+          <p>To follow the build up to the falls you can hike the Spa Park to Huka Falls trail, an easy one hour walk that begins where the river is still tranquil and wide. Passing through exotic and native forests, the track emerges again alongside
+            the river and the roar of the falls grows louder at every turn. Around the falls there are several great vantage points from which to enjoy their full splendor and capture some very impressive photographs.</p>
+        </div>
+      </div>
+
+      <!-- Craters of the Moon -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/craters.jpg" alt="craters of the moon" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">2</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Craters of the Moon</h2>
+          <p>Feel the heat of the Earth as you explore a geothermal valley hissing with clouds of steam and view cauldrons of bubbling mud from viewing platform.</p>
+          <p>The tracks lead to several viewing platforms on the edge of large craters, from where the relentless power of the earth's fiery core becomes truly apparent. You can view clouds of slightly sulphurous steam, hissing vents, colourful soils
+            and cauldrons of bubbling mud as you wander through the otherworldly terrain.</p>
+        </div>
+      </div>
+
+      <!-- Mine Bay -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/mine_bay.jpg" alt="mine bay rock carving" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">3</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Mine Bay Maori Rock Carvings</h2>
+          <p>Take a kayak or boat tour around the scenic Western Bays of Lake Taupō to see the huge Māori rock carving at Mine Bay.</p>
+          <p>The main carving is over 10 metres high and took four summers to complete. The carvings have become an iconic cultural attraction for the region and a clear demonstration that traditional Māori knowledge and skills continue to be passed
+            from generation to generation.</p>
+        </div>
+      </div>
+
+      <!-- Aratiatia Rapids -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/aratiatia.jpg" alt="aratiatia rapids" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">4</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Aratiatia Rapids</h2>
+          <p>A few times each day, spill gates from a dam are opened at the top of the Aratiatia rapids and the narrow gorge fills with turbulent water surging past at up to 90,000 litres per second. Then, as the gates are closed about thirty minutes
+            later, the turbulence recedes to a placid stream. By seeing the transition to full-flow and back again, visitors can fully appreciate the power of nature.</p>
+          <p>A scenic two-hour hiking trail between Huka Falls and the Aratiatia Rapids offers excellent views of the Waikato River. It passes through a 142 hectare reserve on the shores of Lake Aratiaitia at the top of the rapids. Mountain bikes are
+            allowed on this trail.</p>
+        </div>
+      </div>
+
+      <!-- Waipahihi Botanical Reserve -->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/waipahihi.jpg" alt="waipahihi botanical reserve" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">5</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Waipahihi Botanical Reserve</h2>
+          <p>Pack a picnic and wander through the Waipahihi Botanical Reserve, a vast garden of rare alpine plants, rhododendrons, azaleas and camellias.</p>
+          <p>This is a magical and romantic place - not only for the many walks through the flowering shrubs and trees, but also for the outstanding views.</p>
+        </div>
+      </div>
+
+      <!-- Lake Taupo-->
+      <div class="list_image_div">
+        <img src="css/images/attractions/img_taupo/lakeside.jpg" alt="lake taupo" class="list_image no-view">
+      </div>
+      <div class="row list">
+        <div class="col-sm-2">
+          <h1 class="number no-view">6</h1>
+        </div>
+        <div class="col-sm-10 list_desciption no-view">
+          <h2>Lake Taupo</h2>
+          <p>Explore the scenic beauty of Lake Taupō by stretching your legs along one of many lakeside walking trails.</p>
+          <p>The clear waters of Lake Taupō meet sandy beaches and towering cliffs in settings that range from small holiday communities to remote native forests. Take a step away from the areas accessible to vehicles and enjoy the complete peace and
+            quiet of water's edge picnic spots and elevated viewing areas. Careful planning has preserved one of the main features that first attracted people to this area - the beautiful lakeside scenery.</p>
+          <p>Check out Taupō's top scenic attractions below.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+  <footer>
+    <div class="container-fluid footerSection">
+      <p class="footer">Hannah Davydova 2019, Vision College</p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/attractions.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Treaty of Waitangi</title>
+  <meta name="description" content="Visit New Zealand - Read about one of New Zealand's key moments in history, the Treaty of Waitangi.">
+  <meta name="keywords"  content="New Zealand, NZ, NZ Map, Attractions, Auckland, Christchurch, Coromandel, Dunedin, Fiordland, Hamilton, Nelson, Queenstown, Rotorua, Taupo, Wellington, West Coast, Activities, Adventure, Water Activities, Nature, Wildlife, Walking, Hiking, Events, Music Events, Arts and Culture Events, Sports Events, Food And Wine Events, History, Treaty of Waitangi, Contact">
+  <meta name="author" content="Hannah Davydova">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville|Open+Sans|Montserrat:400,600,900" rel="stylesheet">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/treaty.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="headerSection">
+
+    <!-- Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">VISIT <span>New Zealand</span></a> <!-- Logo -->
+
+      <!-- Hamburger menu icon on collapse -->
+      <button class="navbar-toggler myToggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Attractions
+            </a>
+            <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="attractions.html">New Zealand Map</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="auckland.html">Auckland</a>
+              <a class="dropdown-item" href="christchurch.html">Christchurch</a>
+              <a class="dropdown-item" href="coromandel.html">Coromandel</a>
+              <a class="dropdown-item" href="dunedin.html">Dunedin</a>
+              <a class="dropdown-item" href="fiordland.html">Fiordland</a>
+              <a class="dropdown-item" href="hamilton.html">Hamilton</a>
+              <a class="dropdown-item" href="nelson.html">Nelson</a>
+              <a class="dropdown-item" href="queenstown.html">Queenstown</a>
+              <a class="dropdown-item" href="rotorua.html">Rotorua</a>
+              <a class="dropdown-item" href="taupo.html">Taupo</a>
+              <a class="dropdown-item" href="wellington.html">Wellington</a>
+              <a class="dropdown-item" href="westcoast.html">West Coast</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Activities
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_act" id="adventure" href="#">Adventure</a>
+              <a class="dropdown-item redirect_act" id="nature" href="#">Nature + Wildlife</a>
+              <a class="dropdown-item redirect_act" id="walk" href="#">Walking + Hiking</a>
+              <a class="dropdown-item redirect_act" id="water" href="#">Water Activities</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events
+            </a>
+            <div class="dropdown-menu dropdown-custom1" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item redirect_events" id="arts" href="#">Arts + Culture</a>
+              <a class="dropdown-item redirect_events" id="food" href="#">Food + Wine</a>
+              <a class="dropdown-item redirect_events" id="music" href="#">Music</a>
+              <a class="dropdown-item redirect_events" id="sports" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              History
+            </a>
+            <div class="dropdown-menu dropdown-custom2" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item custom-item" href="history.html">Brief History</a>
+              <a class="dropdown-item custom-item1 active" href="treaty.html">Treaty of Waitangi</a>
+            </div>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div> <!-- End of collapse -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Header Image -->
+    <div class="container-fluid header">
+      <div class="headerImg">
+        <div class="overlay"></div>
+        <h1 class="headerTitle">History</h1>
+      </div>
+    </div>
+    <!-- End of header image -->
+  </section>
+
+
+  <!-- About Section-->
+  <section class="topSection">
+    <div class="container-fluid">
+      <h1 class="subTitle">TREATY OF WAITANGI</h1>
+      <button type="button" class="btn btn-outline-dark active withT" onclick="viewAll()">View with timeline</button>
+      <button type="button" class="btn btn-outline-dark withoutT" onclick="aboutOnly()">View without timeline</button>
+      <h2 class="quotes no-view"><span class="bigQuotes no-view">"</span>He iwi tahi tatou <br /> - 
+        we are one people<span class="bigQuotes no-view">"</span></h2>
+      <p class="no-view">- Crown representative Lieutenant Governor William Hobson, <br />
+        during his address on the grounds of Te Tii Marae in Waitangi, 1840</p>
+      <div class="container aboutContain no-view">
+        <h3 class="paraTitle">Signed in 1840, the Treaty of Waitangi is an agreement between the British Crown and Māori.</h3>
+        <p class="paragraph">Around this time, as more immigrants settled permanently in New Zealand, they weren’t always fair in their dealings with Māori over land. A number of Māori chiefs sought protection from William IV, the King of England,
+          and recognition of their special trade and missionary contacts with Britain. They feared a takeover by nations like France, and wanted to stop the lawlessness of the British people in their country.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Timeline Section -->
+  <section class="timelineSection ">
+    <div class="container-fluid timeline">
+      <ul>
+        <li>
+          <h1 class="timelineStart">30 January</h1>
+          <h3>1840</h3>
+          <p>Lieutenant Governor William Hobson arrives in the Bay of Islands and proclaims that no existing land titles in New Zealand would be recognized as valid unless confirmed by the British Government.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/will_hobson.jpg" alt="william hobson">
+            <figcaption>Lieutenant Governor William Hobson</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>1 February </h1>
+          <h3>1840</h3>
+          <p>Hobson begins to draft the Treaty of Waitangi based on instructions from Lord Normanby and texts he had seen in Sydney.</p>
+        </li>
+
+        <li>
+          <h1>2 February</h1>
+          <h3>1840</h3>
+          <p>Hobson suffers a stroke and is paralysed. British Resident James Busby takes over treaty drafting.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/james_busby.jpg" alt="james busby">
+            <figcaption>James Busby</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>3 February</h1>
+          <h3>1840</h3>
+          <p>Busby creates a treaty draft dated February 3. This draft has the phrases “lands and estates forests fisheries” and “right of pre-emption”.</p>
+        </li>
+
+        <li>
+          <h1>4 February</h1>
+          <h3>1840</h3>
+          <p>Busby creates a treaty draft dated February 4 that has no reference to “lands and estates forests fisheries” and “right of pre-emption”. Reverend Henry Williams and his son Edward translate the final draft into the Maori language. The
+            Tiriti o Waitangi was the only Treaty authorised by Hobson to be signed by the chiefs.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/henry_williams.jpg" alt="henry williams">
+            <figcaption>Reverend Henry Williams</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>5 February</h1>
+          <h3>1840</h3>
+          <p class="lessMargin">Hobson reads the treaty in English and Williams reads the Treaty in Maori to the gathering of 2000 people. The chiefs discuss it with Hobson for five hours then well into the night with the missionaries and decide it
+            is to their advantage to sign the Tiriti the next morning.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Section-->
+  <section class="dateSection">
+    <div class="container-fluid">
+      <div class="parallaxImg1">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container aboutContain">
+        <h2 class="date no-view">6 February 1840</h2>
+        <h3 class="paraTitle no-view">The Treaty of Waitangi drafted and signed.</h3>
+        <p class="paragraph no-view">As British settlement increased, the British Government decided to negotiate a formal agreement with Māori chiefs to become a British Colony. A treaty was drawn up in English then translated into Māori.</p>
+        <p class="paragraph no-view">The Treaty of Waitangi was signed on February 6, 1840, at Waitangi in the Bay of Islands. Forty-three Northland Chiefs signed the treaty on that day. Over 500 Māori Chiefs signed it as it was taken around the country
+          during the next eight months.</p>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="parallaxImg2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timelineSection timeline">
+    <div class="container-fluid">
+      <ul>
+
+        <li>
+          <h1 class="timelineStart">April</h1>
+          <h3>1840</h3>
+          <p>39 chiefs signed the 'Freeman' official English text at Port Waikato and Manukau as an overflow because the Tiriti o Waitangi at Waitangi was full and no other copies available.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/tamati_nene.jpg" alt="Tamati Nene">
+            <figcaption>Tamati Nene - one of the first to sign the treaty</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>21 May</h1>
+          <h3>1840</h3>
+          <p>Hobson proclaimed sovereignty over the North Island on May 21, 1840, on the grounds of cession by treaty.</p>
+        </li>
+
+        <li>
+          <h1>5 June</h1>
+          <h3>1840</h3>
+          <p>Major Thomas Bunbury and Captain Joseph Nias R.N. proclaimed sovereignty over Stewart Island on the basis of Cook’s discovery.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/thomas_bunbury.jpg" alt="Thomas Bunbury">
+            <figcaption>Major Thomas Bunbury</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>17 June</h1>
+          <h3>1840</h3>
+          <p class="bottomPadding">Major Thomas Bunbury and Captain Joseph Nias R.N. proclaimed sovereignty over the South Island on June 17, at Port Underwood, on the basis of cession.</p>
+          <figure class="timelineImage morePadding no-view">
+            <img src="css/images/treaty/joseph_nias.jpg" alt="Joseph Nias">
+            <figcaption>Captain Joseph Nias</figcaption>
+          </figure>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Section-->
+  <section class="aboutSection">
+    <div class="container-fluid">
+        <div class="container aboutContain">
+          <h3 class="paraTitle no-view">The Articles</h3>
+          <p class="paragraph no-view">The Treaty had three articles:</p>
+          <p class="paragraph no-view"><strong>I.</strong> That the Queen (or king) of Great Britain has the right to rule over New Zealand</p>
+          <p class="paragraph no-view"><strong>II.</strong> That Māori chiefs would keep their land and their chieftainships, and would agree to sell their land only to the British monarch; and</p>
+          <p class="paragraph no-view"><strong>III.</strong> That all Māori would have the same rights as British subjects.</p>
+          <p class="paragraph no-view">It is the second and third articles have caused controversy through the years, mainly because of translation problems. Successive governments believed the Treaty enabled complete sovereignty over Māori, their lands and
+            resources. But Māori believed that they were merely giving permission for the British to use their land.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timelineSection timeline">
+    <div class="container-fluid">
+      <ul>
+        <li>
+          <h1 class="timelineStart">20 June</h1>
+          <h3>1840</h3>
+          <p>France accepts British Sovereignty, “That sovereignty had been procured in a manner such as could be approved by other nations”.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/treaty_doc_sm.jpg" alt="treaty document">
+            <figcaption>Treaty of Waitangi</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>7 August</h1>
+          <h3>1840</h3>
+          <p>The New South Wales Continuance Act, which pronounced the Islands of New Zealand to be a British Colony, was passed in Britain. </p>
+        </li>
+
+        <li>
+          <h1>16 November</h1>
+          <h3>1840</h3>
+          <p>Queen Victoria’s Royal Charter enacted the Colony of New Zealand, established a Legislative Council, an Executive Council and the Courts, and granted certain powers and authority to the Governor. New Zealand became independent of New
+            South Wales under the watchful eye of the British Parliament.</p>
+          <figure class="timelineImage no-view">
+            <img src="css/images/treaty/charter_1840.jpg" alt="Royal Charter" class="charterImg" />
+            <figcaption class="charterCap">Queen Victoria's Royal Charter</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h1>24 May</h1>
+          <h3>1841</h3>
+          <p class="lessMargin">Hobson presides over the first sitting of the Legislative Council. He cites the Charter dated November 16 as the authority for him to assume the position of governor and commander in chief and to appoint an executive council. </p>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Section-->
+  <section class="aboutSection">
+    <div class="container-fluid">
+      <div class="parallaxImg5">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container aboutContain">
+        <h3 class="paraTitle no-view">Conflict breaks out</h3>
+        <p class="paragraph no-view">Disputes over ownership followed involving a series of violent conflicts during the 19th century. These became known as the New Zealand Land Wars, and were concentrated around Northland and the southern part of the North Island during the 1840s, and the central North Island in the 1860s. Both sides suffered losses, with the Brittish Crown the eventual victor. Land confiscation and questionable land sales carried on through to the 20th century, until the vast majority of land in New Zealand was owned by settlers and the Crown.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section-->
+  <section class="aboutSection">
+    <div class="container-fluid">
+      <div class="parallaxImg4">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container aboutContain">
+        <h3 class="paraTitle no-view">Today's Treaty</h3>
+        <p class="paragraph no-view">Following its signing, many of the rights guaranteed to Māori in the Treaty of Waitangi were ignored. To help rectify this, the Waitangi Tribunal was set up in 1975. Disagreements over the terms of the treaty continue to
+          this day, and the Tribunal has ruled on a number of claims brought by Māori iwi (tribes) and in many cases, compensation has been granted.</p>
+        <p class="paragraph no-view">The grounds and building where the treaty was signed have been preserved. Today, the Waitangi Historic Reserve is a popular tourist attraction. Here you can explore the museum, watch a cultural performance inside the
+          carved Māori meeting house, and visit the colonial mission house, historic flagstaff, and beautiful waka taua (Māori war canoe).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to top button -->
+  <a href="#" class="go-top">Top</a>
+
+<footer>
+<div class="container-fluid footerSection">
+  <p class="footer">Hannah Davydova 2019, Vision College</p>
+</div>
+</footer>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- My JS -->
+  <script src="js/treaty.js" charset="utf-8"></script>
+</body>
+
+</html>
