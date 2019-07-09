@@ -148,10 +148,6 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
      }
    });
 
-   $(window).on("beforeunload", function(){
-    $("path").off("mouseenter");
-   });
-
    // If not on mobile, make map regions clickable
    if (isMobile == false) {
      $("path").on("click", function() {
@@ -237,4 +233,13 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
        window.location = 'events.html#' + currentId; //load new page
        return false;
      });
+   });
+
+   $(window).on("beforeunload", function(){
+     for (i = 0; i < myRegions.length; i++) {
+       $("#" + myRegions[i].region)
+         .css({
+           "fill": "#BCBEC0"
+         });
+       }
    });

@@ -78,9 +78,7 @@ var myRegions = [{
 
 
 $(function() {
-
   for (i = 0; i < myRegions.length; i++) {
-
     $("#" + myRegions[i].region)
       .css({
         "fill": "#BCBEC0"
@@ -145,10 +143,6 @@ $(function() {
         "fill": "#BCBEC0"
       });
     }
-  });
-
-  $(window).on("beforeunload", function(){
-   $("path").off("mouseenter");
   });
 
   // If not on mobile, make map regions clickable
@@ -237,4 +231,13 @@ $(function() {
     window.location = 'events.html#' + currentId; //load new page
     return false;
   });
+});
+
+$(window).on("beforeunload", function(){
+  for (i = 0; i < myRegions.length; i++) {
+    $("#" + myRegions[i].region)
+      .css({
+        "fill": "#BCBEC0"
+      });
+    }
 });

@@ -221,7 +221,6 @@ body {
 }
 
 /* ---------------------------- Float Up Styles ---------------------------- */
-
 .no-view {
   transition: all 0.5s ease-in-out;
   opacity: 0;
@@ -431,8 +430,6 @@ figcaption {
 
 /* ---------------------------- Media Queries Styles ---------------------------- */
 @media (max-width: 1045px) {
-
-
   .timeline {
     padding-right: 50px;
   }
@@ -446,8 +443,6 @@ figcaption {
   .timeline p {
     margin-left: 550px;
   }
-
-
 }
 
 @media (max-width: 1024px) {
@@ -463,14 +458,17 @@ figcaption {
   h2 {
     font-size: 3.8rem !important;
   }
-
 }
 
-
 @media (max-width: 991px) {
+
   /* change navbar color on collapse */
   nav.navbar {
     background: #282828 !important;
+  }
+
+  .custom-item, .custom-item1, .dropdown-item {
+    font-size: 0.9rem;
   }
 
   .aboutContain {
@@ -510,7 +508,6 @@ figcaption {
     text-align: center;
   }
 
-
   .timeline ul {
     text-align: center;
   }
@@ -538,24 +535,23 @@ figcaption {
     font-size: 4rem;
   }
 
-.subTitle {
-  font-size: 3.8rem;
-}
-
+  .subTitle {
+    font-size: 3.8rem;
+  }
 }
 
 @media (max-width: 575px) {
   .aboutContain {
-      padding: 50px 30px;
+    padding: 50px 30px;
   }
 
   .timeline h1 {
     font-size: 3.5rem;
   }
+
   .headerTitle {
     font-size: 3rem;
   }
-
 }
 
 @media (max-width: 495px) {
@@ -591,11 +587,8 @@ figcaption {
     padding-top: 50px;
   }
 
-.timeline  h1 {
+  .timeline h1 {
     font-size: 2.8rem;
     margin: 50px 0 0;
   }
-
-
-
 }

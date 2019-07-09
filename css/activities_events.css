@@ -433,6 +433,10 @@ p {
     background: #282828 !important;
   }
 
+  .custom-item, .custom-item1, .dropdown-item {
+    font-size: 0.9rem;
+  }
+
   .with-padding {
     padding: 2% 15% 3%;
   }
@@ -546,10 +550,6 @@ p {
 
   .container {
     padding: 0;
-  }
-
-  .custom-item {
-    font-size: 0.9rem;
   }
 
   .features-items {

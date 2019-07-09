@@ -394,6 +394,10 @@ svg a {
     background: #282828 !important;
   }
 
+  .custom-item, .custom-item1, .dropdown-item {
+    font-size: 0.9rem;
+  }
+
   .city {
     margin-right: auto;
     margin-left: auto;

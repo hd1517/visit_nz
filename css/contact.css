@@ -368,6 +368,10 @@ iframe {
     background: #282828 !important;
   }
 
+  .custom-item, .custom-item1, .dropdown-item {
+    font-size: 0.9rem;
+  }
+
   .navbar-brand {
     margin: 0;
     padding-left: 0;
