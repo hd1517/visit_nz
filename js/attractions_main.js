@@ -186,6 +186,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
            $("#otagoModal").modal("show");
            clicked = false;
          } else {
+           $(this).css({
+             "fill": "#BCBEC0"
+           });
            window.location = region_data.link;
          }
 
@@ -233,13 +236,4 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
        window.location = 'events.html#' + currentId; //load new page
        return false;
      });
-   });
-
-   $(window).on("beforeunload", function(){
-     for (i = 0; i < myRegions.length; i++) {
-       $("#" + myRegions[i].region)
-         .css({
-           "fill": "#BCBEC0"
-         });
-       }
    });

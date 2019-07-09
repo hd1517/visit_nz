@@ -155,6 +155,9 @@ $(function() {
       } else if (region_data.region == "Otago") { // If the region is Otago, show the modal
         $("#otagoModal").modal("show");
       } else { // Else go to link
+        $(this).css({
+          "fill": "#BCBEC0"
+        });
         window.location = region_data.link;
       }
     });
@@ -231,13 +234,4 @@ $(function() {
     window.location = 'events.html#' + currentId; //load new page
     return false;
   });
-});
-
-$(window).on("beforeunload", function(){
-  for (i = 0; i < myRegions.length; i++) {
-    $("#" + myRegions[i].region)
-      .css({
-        "fill": "#BCBEC0"
-      });
-    }
 });
