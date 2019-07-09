@@ -155,9 +155,6 @@ $(function() {
       } else if (region_data.region == "Otago") { // If the region is Otago, show the modal
         $("#otagoModal").modal("show");
       } else { // Else go to link
-        $(this).css({
-          "fill": "#BCBEC0"
-        });
         window.location = region_data.link;
       }
     });
@@ -186,6 +183,9 @@ $(function() {
           $("#otagoModal").modal("show");
           clicked = false;
         } else {
+          $(this).css({
+            "fill": "#BCBEC0"
+          });
           window.location = region_data.link;
         }
 
