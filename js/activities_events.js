@@ -98,6 +98,18 @@ $(document).ready(function() {
 
 });
 
+$(".arrowLeft").click(function(){
+  $('.iconRow').animate({
+            scrollLeft: "-=110px"
+  });
+});
+
+$(".arrowRight").click(function(){
+  $('.iconRow').animate({
+            scrollLeft: "+=110px"
+  });
+});
+
 // Find viewport dimensions
 $.fn.isInViewport = function() {
   var elementTop = $(this).offset().top;

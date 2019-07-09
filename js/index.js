@@ -5,7 +5,6 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   isMobile = true;
   $(".description").text("Tap on the region to learn more");
   $(".videoContainer").css("background-color", "none");
-  $("path").css("fill", "#BCBEC0");
 }
 
 var myRegions = [{
@@ -146,6 +145,10 @@ $(function() {
         "fill": "#BCBEC0"
       });
     }
+  });
+
+  $(window).on("beforeunload", function(){
+   $("path").off("mouseenter");
   });
 
   // If not on mobile, make map regions clickable

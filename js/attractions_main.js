@@ -148,6 +148,10 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
      }
    });
 
+   $(window).on("beforeunload", function(){
+    $("path").off("mouseenter");
+   });
+
    // If not on mobile, make map regions clickable
    if (isMobile == false) {
      $("path").on("click", function() {
