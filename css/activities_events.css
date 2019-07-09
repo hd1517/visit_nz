@@ -265,10 +265,18 @@ p {
 
 /* ---------------------------- Icon Links Styles ---------------------------- */
 /* "Choose your activity type" header */
-.arrows {
+.arrowLeft {
   display: none;
-  position: relative;
+  position: absolute;
   top: 70px;
+  padding-left: 0;
+}
+
+.arrowRight {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 0;
   padding-left: 0;
 }
 
@@ -308,6 +316,10 @@ p {
 
 .iconRow::-webkit-scrollbar {
   display: none;
+}
+
+.iconsDiv {
+  position: relative;
 }
 
 .selected_div {
@@ -416,7 +428,6 @@ p {
 
 /* ---------------------------- Media Queries Styles ---------------------------- */
 @media (max-width: 991px) {
-
   /* change navbar color on collapse */
   nav.navbar {
     background: #282828 !important;
@@ -464,10 +475,12 @@ p {
 @media (max-width:768px) {
   .headerImg_activities {
     height: 70vh;
+    background-attachment: inherit;
   }
 
   .headerImg_events {
     height: 70vh;
+    background-attachment: inherit;
   }
 
   .overlay {
@@ -540,14 +553,19 @@ p {
   }
 
   .features-items {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0;
+    margin-right: 10px;
   }
 
   .contentContainer {
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
+  }
+
+  .iconRow {
+    margin-left: 25px;
+    margin-right: 30px;
   }
 
   .list {

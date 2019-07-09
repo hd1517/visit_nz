@@ -457,6 +457,7 @@ figcaption {
 
   .parallaxImg1, .parallaxImg2, .parallaxImg4, .parallaxImg5 {
     height: 60vh;
+    background-attachment: inherit;
   }
 
   h2 {
@@ -476,22 +477,20 @@ figcaption {
     padding: 130px 0;
   }
 
+  .quotes {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 880px) {
   .headerImg {
     height: 70vh;
+    background-attachment: inherit;
   }
 
   .overlay {
     height: 70vh;
   }
-
-  .quotes {
-    font-size: 3.8rem;
-  }
-
-
-}
-
-@media (max-width: 880px) {
 
   .navbar-brand {
     margin-top: 5px;
@@ -569,14 +568,6 @@ figcaption {
 
   .nav-item {
     padding: 0;
-  }
-
-  .headerImg {
-    height: 70vh;
-  }
-
-  .overlay {
-    height: 70vh;
   }
 
   .subTitle {

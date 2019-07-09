@@ -389,7 +389,6 @@ svg a {
 }
 
 @media (max-width: 991px) {
-
   /* change navbar color on collapse */
   nav.navbar {
     background: #282828 !important;
@@ -470,6 +469,15 @@ svg a {
 }
 
 @media (max-width: 768px) {
+  .headerImg {
+    height: 70vh;
+    background-attachment: inherit;
+  }
+
+  .overlay {
+    height: 70vh;
+  }
+
   .map_div {
     text-align: center;
     padding-right: 15px;
@@ -528,14 +536,6 @@ svg a {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-  }
-
-  .headerImg {
-    height: 70vh;
-  }
-
-  .overlay {
-    height: 70vh;
   }
 
   .subHeader {

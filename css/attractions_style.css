@@ -487,6 +487,7 @@ p {
 
   .headerImg {
     height: 70vh;
+    background-attachment: inherit;
   }
 
   .overlay {

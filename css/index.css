@@ -676,11 +676,6 @@ svg a {
     text-align: center;
   }
 
-  figure.effect-ming p {
-    display: block;
-    font-size: 0.7rem;
-  }
-
   .subHeader {
     text-align: center;
   }
@@ -690,7 +685,23 @@ svg a {
   }
 }
 
+@media (max-width: 890px) {
+  figure.effect-ming h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 820px) {
+  figure.effect-ming h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  figure.effect-ming h2 {
+    font-size: 1rem;
+  }
+
   .videoContainer {
     line-height: 70vh;
   }

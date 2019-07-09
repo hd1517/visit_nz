@@ -317,7 +317,6 @@ iframe {
 }
 
 /* ---------------------------- Modal Styles ---------------------------- */
-
 .modal_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -364,14 +363,6 @@ iframe {
 
 /* ---------------------------- Media Queries Styles ---------------------------- */
 @media (max-width: 991px) {
-.formDiv {
-  padding: 20px;
-}
-
-}
-
-@media (max-width: 991px) {
-
   /* change navbar color on collapse */
   nav.navbar {
     background: #282828 !important;
@@ -382,19 +373,32 @@ iframe {
     padding-left: 0;
   }
 
+  .headerImg {
+    height: 70vh;
+    background-attachment: inherit;
+  }
+
+  .overlay {
+    height: 70vh;
+  }
+
   .errorMsg {
     margin-left: 0;
+  }
+
+  .formDiv {
+    padding: 20px;
   }
 }
 
 @media (max-width:768px) {
-.formDiv {
-  padding: 20px;
-}
+  .formDiv {
+    padding: 20px;
+  }
 
-.row {
-  margin: 0;
-}
+  .row {
+    margin: 0;
+  }
 
   .mapDiv {
     padding: 50px 10px 20px;
